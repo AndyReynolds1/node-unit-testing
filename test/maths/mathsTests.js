@@ -6,7 +6,7 @@ describe("Maths", function(){
         it("Correctly adds numbers", function(){
             var result = maths.add(1,1);
 
-            expect(result).result.equal(2);
-        })
+            expect(result).to.equal(2);
+        });
     })
 });

@@ -1,0 +1,15 @@
+{
+  "name": "node-unit-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec --recursive"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^3.2.0",
+    "mocha": "^2.3.0"
+  }
+}
